@@ -226,8 +226,8 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.4.11
         with:
-          source: gitly/src/static/css/gitly.scss
-          destination: gitly/src/static/css/gitly.css
+          source: src/static/css/gitly.scss
+          destination: src/static/css/gitly.css
 
       - name: Run all tests
         run: |
